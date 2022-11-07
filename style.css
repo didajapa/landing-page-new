@@ -1,8 +1,9 @@
 /* GENERAL SETTINGS*/
 body {
-    margin: 0px;
+    margin: 0;
     background-color: #f9faf8;
     font-family: Roboto, sans-serif;
+    text-align: center;
 }
 
 .header, .hero, .footer {
@@ -15,11 +16,73 @@ button, .cta {
 }
 
 /* HEADER */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+}
+.header-logo {
+    font-size: 24px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
+    padding: 0;
+    margin: 0;
+}
 
 /* HERO */
+.hero {
+    display: flex;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: left;
+    }
+.hero h1 {
+    margin: 0;
+    padding: 0;
+}
+
+.hero p {
+    margin: 0;
+    padding: 0;
+}
+
+.hero-img img {
+    max-width: 30vw;
+    border-radius: 10%;
+}
 
 /* CONTENT */
 
+h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+
+.content-child {
+    display: flex;
+    flex-direction: column;
+}
+.child-img img {
+    max-width: 20vw;
+    border-radius: 10%;
+    border: #3882f6 3px solid;
+}
 /*QUOTE*/
 .quote {
     background-color: #e5e7eb;
