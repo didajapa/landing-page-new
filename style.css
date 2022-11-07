@@ -8,11 +8,21 @@ body {
 
 .header, .hero, .footer {
     background-color: #1f2937;
-    color: #f9faf8
+    color: #f9faf8;
+    padding-left: 15%;
+    padding-right: 15%;
 }
 
 button, .cta {
     background-color: #3882f6;
+}
+
+button {
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    color: #e5e7eb;
+    font-weight: bold;
 }
 
 /* HEADER */
@@ -21,11 +31,16 @@ button, .cta {
     align-items: center;
     justify-content: space-between;
     margin: 0;
+    padding-bottom: 2em;
 }
 .header-logo {
     font-size: 24px;
 }
 
+.header-links {
+    display: flex;
+    gap: 1.5em;
+}
 a {
     text-decoration: none;
     font-size: 18px;
@@ -37,6 +52,8 @@ a {
 /* HERO */
 .hero {
     display: flex;
+    gap: 2em;
+    padding-bottom: 3em;
 }
 
 .hero-text {
@@ -44,6 +61,7 @@ a {
     flex-direction: column;
     flex-wrap: wrap;
     text-align: left;
+    
     }
 .hero h1 {
     margin: 0;
@@ -52,12 +70,16 @@ a {
 
 .hero p {
     margin: 0;
-    padding: 0;
+    padding-bottom: 1em;
+}
+
+.hero button {
+    border: none;
 }
 
 .hero-img img {
     max-width: 30vw;
-    border-radius: 10%;
+    border-radius: 25px;
 }
 
 /* CONTENT */
@@ -72,20 +94,33 @@ h2 {
     display: flex;
     flex-wrap: wrap;
     gap: 1em;
+    padding-left: 15%;
+    padding-right: 15%;
+    margin-bottom: 3em;
 }
 
 .content-child {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
 }
+
 .child-img img {
-    max-width: 20vw;
+    max-width: 15vw;
     border-radius: 10%;
     border: #3882f6 3px solid;
+}
+
+.child-text {
+    max-width: 15vw;
 }
 /*QUOTE*/
 .quote {
     background-color: #e5e7eb;
+    padding: 3% 15%;
+    text-align: right;
 }
 
 .quote-text {
@@ -101,4 +136,35 @@ h2 {
 }
 
 /* CTA */
+.cta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;    
+    gap: 2em;
+    margin: 2em 30%;
+    padding: 3%;
+    border-radius: 20px; 
+}
+
+.cta-text {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    color: #f9faf8;
+}
+.cta-text h3, .cta-text p {
+    margin: 0;
+}
+
+
+.cta-button button {
+    border-color:#e5e7eb;
+    display: flex;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: center;
+    }
+
+
 /* FOOTER */
