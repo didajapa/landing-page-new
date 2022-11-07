@@ -1,0 +1,41 @@
+/* GENERAL SETTINGS*/
+body {
+    margin: 0px;
+    background-color: #f9faf8;
+    font-family: Roboto, sans-serif;
+}
+
+.header, .hero, .footer {
+    background-color: #1f2937;
+    color: #f9faf8
+}
+
+button, .cta {
+    background-color: #3882f6;
+}
+
+/* HEADER */
+
+/* HERO */
+
+/* CONTENT */
+
+/*QUOTE*/
+.quote {
+    background-color: #e5e7eb;
+}
+
+.quote-text {
+    font-size: 2em;
+    font-weight: 100;
+    font-style: italic;
+    color:#1f2937;
+}
+
+.quote-by {
+    font-size: 1em;
+    font-weight: bold;
+}
+
+/* CTA */
+/* FOOTER */
